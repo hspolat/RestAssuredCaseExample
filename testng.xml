@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker API Test Suite" verbose="1">
+
+    <test name="Ping Tests">
+        <classes>
+            <class name="com.booker.tests.PingTests"/>
+        </classes>
+    </test>
+
+    <test name="Auth Tests">
+        <classes>
+            <class name="com.booker.tests.AuthTests"/>
+        </classes>
+    </test>
+
+    <test name="Booking Tests">
+        <classes>
+            <class name="com.booker.tests.BookingTests"/>
+        </classes>
+    </test>
+
+</suite>

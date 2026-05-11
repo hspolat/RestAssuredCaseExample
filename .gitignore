@@ -1,0 +1,28 @@
+# Sistemsel ve Hassas Bilgiler
+.env
+
+# Maven Build Çıktıları
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.nextSnapshot
+release.properties
+
+# Test Raporları
+allure-results/
+allure-report/
+
+# IDE Ayarları (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Log Dosyaları
+*.log
+
+# OS Özel Dosyalar
+.DS_Store
+Thumbs.db
